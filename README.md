@@ -21,13 +21,13 @@ This repo contains **all synthetic data, code notebooks and figures** that suppo
 
 ## 3 File list
 
-ai_society_simulations.ipynb ← single notebook, 2 independent sections
-cg_hr_data.csv ← 5 000 Monte-Carlo pairs (Capability-Gain, Homicide)
-cg_hr_plot.png ← published Figure 1
-charter_countries.csv ← synthetic 3-country time-series (Year, HR, CG)
-charter_cg_plot.png ← Figure 2 (Capability-Gain trajectories)
-charter_hr_plot.png ← Figure 3 (Homicide trajectories)
-technical_appendix.pdf ← 6-page detailed specs referenced in the papers
+* [`ai_society_simulations.ipynb`](ai_society_simulations.ipynb) — single notebook, 2 independent sections  
+* [`cg_hr_data.csv`](cg_hr_data.csv) — 5 000 Monte-Carlo pairs (Capability-Gain, Homicide)  
+* [`cg_hr_plot.png`](cg_hr_plot.png) — published Figure 1  
+* [`charter_countries.csv`](charter_countries.csv) — synthetic 3-country time-series (Year, HR, CG)  
+* [`charter_cg_plot.png`](charter_cg_plot.png) — Figure 2 (Capability-Gain trajectories)  
+* [`charter_hr_plot.png`](charter_hr_plot.png) — Figure 3 (Homicide trajectories)  
+* [`technical_appendix.pdf`](technical_appendix.pdf) — 6-page detailed specs referenced in the papers  
 
 ---
 
