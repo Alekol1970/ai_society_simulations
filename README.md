@@ -18,3 +18,35 @@ This repo contains **all synthetic data, code notebooks and figures** that suppo
 ## 2 Quick start – reproduce the figures
 
 1. Open the notebook directly in your browser via the GitHub viewer **or** in Colab:  
+
+## 3 File list
+
+ai_society_simulations.ipynb ← single notebook, 2 independent sections
+cg_hr_data.csv ← 5 000 Monte-Carlo pairs (Capability-Gain, Homicide)
+cg_hr_plot.png ← published Figure 1
+charter_countries.csv ← synthetic 3-country time-series (Year, HR, CG)
+charter_cg_plot.png ← Figure 2 (Capability-Gain trajectories)
+charter_hr_plot.png ← Figure 3 (Homicide trajectories)
+technical_appendix.pdf ← 6-page detailed specs referenced in the papers
+
+---
+
+## 4 Data & code availability
+All synthetic data, simulation notebooks, and the Technical Appendix are **openly available** in this repository under the MIT License and may be reused without restriction, provided appropriate citation.
+
+---
+
+## 5 How to cite
+Kolomiets, A. (2025). Ethical Architecture of an AI Companion for Non-Violent
+Adaptation. Preprint, arXiv:2406.xxxxx. Supplementary material available at
+https://github.com/Alekol1970/ai_society_simulations
+
+---
+
+## 6 License
+Code, synthetic data and figures — **MIT License**  
+Text in *technical_appendix.pdf* — CC-BY-4.0
+
+---
+
+*Last update : 2025-06-02*
