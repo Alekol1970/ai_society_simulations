@@ -49,4 +49,6 @@ Text in *technical_appendix.pdf* — CC-BY-4.0
 
 ---
 
-*Last update : 2025-06-02*
+| `ai_society_figures.ipynb` | Notebook for Figures 4–6 (diffusion, budget, risk matrix) |
+
+*Last update : 2025-06-03*
