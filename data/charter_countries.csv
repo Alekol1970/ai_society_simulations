@@ -1,0 +1,5 @@
+country,code,region,cg,hr,year
+CountryA,CTA,EU,0.5,0.5,2024
+CountryB,CTB,EU,0.5,0.5,2024
+CountryC,CTC,AMER,0.5,0.5,2024
+CountryD,CTD,APAC,0.5,0.5,2024

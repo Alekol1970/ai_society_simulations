@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Agent-based modeling of platform filtering (E) and institutional response (R)"
+authors:
+  - family-names: Alekseev
+    given-names: Alexander
+version: v0.1.0
+doi: 10.5281/zenodo.17390051
+date-released: 2025-10-19
+url: https://github.com/Alekol1970/ai_society_simulations
