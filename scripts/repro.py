@@ -27,15 +27,15 @@ def fig1(results):
     os.makedirs('figures',exist_ok=True)
     plt.figure(); plt.imshow(Z,origin='lower',aspect='auto',extent=[min(Rs),max(Rs),min(Es),max(Es)])
     plt.colorbar(label='Final prevalence'); plt.xlabel('R (institutional response)'); plt.ylabel('E (filter strength)')
-    plt.title('Fig.1: Final prevalence across E,R'); plt.tight_layout(); plt.savefig('figures/fig1_grid_ER.png',dpi=200)
+    plt.title('Final prevalence across E,R'); plt.tight_layout(); plt.savefig('figures/fig1_grid_ER.png',dpi=200)
 
 def fig2(results):
     pairs=[(0.0,0.0),(0.2,0.2),(0.4,0.4),(0.6,0.6)]
     plt.figure()
     for E,R in pairs: plt.plot(results[(E,R)],label=f'E={E}, R={R}')
-    plt.xlabel('Time'); plt.ylabel('Prevalence'); plt.title('Fig.2: Prevalence dynamics'); plt.legend(); plt.tight_layout(); plt.savefig('figures/fig2_timeseries.png',dpi=200)
+    plt.xlabel('Time'); plt.ylabel('Prevalence'); plt.title('Prevalence dynamics'); plt.legend(); plt.tight_layout(); plt.savefig('figures/fig2_timeseries.png',dpi=200)
 
-def fig3_robustness_ER_seedfrac_seed():
+def figs7_robustness_ER_seedfrac_seed():
     """
     Robustness: final prevalence across (E,R) при разных seed_frac и rng_seed.
     Рисует boxplot и сохраняет агрегаты в CSV.
@@ -73,12 +73,12 @@ def fig3_robustness_ER_seedfrac_seed():
     plt.boxplot(rows.T, tick_labels=labels, vert=True, showmeans=True)  # <= tick_labels
     plt.xticks(rotation=45, ha="right")
     plt.ylabel("Final prevalence")
-    plt.title("Fig.3: Robustness to seed_frac and rng_seed across (E,R)")
+    plt.title("Robustness to seed_frac and rng_seed across (E,R)")
     plt.tight_layout()
-    plt.savefig("figures/fig3_robustness.png", dpi=200)
+    plt.savefig("figures/s7_robustness.png", dpi=200)
 
     # --- Сохраняем агрегаты в CSV ---
-    with open("figures/fig3_robustness_summary.csv", "w", newline="", encoding="utf-8") as f:
+    with open("figures/s7_robustness_summary.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["E", "R", "mean", "median", "iqr"])
         idx = 0
@@ -96,7 +96,7 @@ def main():
     res = run_grid()
     fig1(res)
     fig2(res)
-    fig3_robustness_ER_seedfrac_seed()   # ← добавили
+    figs7_robustness_ER_seedfrac_seed()   # ← добавили
     print("Done. Figures in ./figures; data ensured in ./data")
 
 if __name__=='__main__':
