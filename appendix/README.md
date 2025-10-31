@@ -1,16 +1,21 @@
-# Appendix files
+# Appendix — AI & Society: ABM Repro Package
 
-This folder contains extended appendices to the preprint.
+This folder contains extended materials that accompany the preprint and the reproducible notebook.
 
-- **Appendix F — Ethical & Anthropological Rationale** (`Appendix_F_ethics_anthro_en.md`)
-- **Appendix G — Trust, Safety & Verification Protocols** (`Appendix_G_trust_protocols_en.md`)
+## What’s here
 
-Figures reproduced by the notebook:
-- `figures/fig1_grid_ER.png` — Final prevalence across (E, R)
-- `figures/fig2_timeseries.png` — Prevalence dynamics
-- `figures/s7_robustness.png` + `figures/s7_robustness_summary.csv` — Robustness to seed/rng
+- **[Appendix_F_operationalizing_energy_EN.md](./Appendix_F_operationalizing_energy_EN.md)**  
+  Operationalization of the integrated **E\*** metric (physiology, behavior, compute, social cost) and comparison at fixed intervention budgets.
 
-Reproducibility:
-- Notebook: `notebooks/figures/ai_society_figures.ipynb`
-- Pipeline: `scripts/repro.py`
+- **[Appendix_G_validation_plan_EN.md](./Appendix_G_validation_plan_EN.md)**  
+  Validation plan for the Awareness / Frustration / Tension indices (ABA mini-studies, pilot RCTs, HRV convergence, invariance tests).
 
+- **[Appendix_H_ethics_anthro_en.md](./Appendix_H_ethics_anthro_en.md)**  
+  Anthropological and ethical grounding of “minimal-sufficient intervention” and co-regulation framing.
+
+- **[Appendix_I_trust_safety_en.md](./Appendix_I_trust_safety_en.md)**  
+  Trust & safety protocols: confidence-gated interventions, escalation cascade, compact-intent rules, and consent/logging.
+
+> **Versioning note.** These files are the source of truth for the extended appendices and may be updated independently of the PDF preprint.
+
+---
