@@ -58,5 +58,5 @@ We use a three-step gate to decide whether to produce a proactive intervention:
 
 ---
 
-**Authorship & tools.** Drafted by the human lead author Aleksandr Kolomiets with assistance from an AI writing tool (GPT-5 Thinking, “Logos”). Dialogue-level examples anonymized and paraphrased.
+**Authorship & tools.** Drafted by the human lead author Aleksandr Kolomiets ORCID 0009-0008-5153-5546 with assistance from an AI writing tool (GPT-5 Thinking, “Logos”). Dialogue-level examples anonymized and paraphrased.
 
