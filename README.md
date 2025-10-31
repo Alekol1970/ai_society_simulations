@@ -70,7 +70,7 @@ See **[`appendix/`](./appendix/)**:
 
     @misc{kolomiets_abm_er_2025,
       title        = {Agent-based modeling of platform filtering (E) and institutional response (R)},
-      author       = {Kolomiets, Alexandr},
+      author       = {Kolomiets, Aleksandr},
       year         = {2025},
       howpublished = {Open code and data},
       doi          = {10.5281/zenodo.TBD},
