@@ -1,1 +1,0 @@
-Folder: scripts. You can remove this file after adding real content.
