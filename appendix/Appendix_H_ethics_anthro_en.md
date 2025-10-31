@@ -42,5 +42,5 @@ UNESCO AI Ethics Recommendation (2021) and audit-as-a-service patterns provide a
 
 ---
 
-**Authorship & tools.** Drafted by the human lead author with assistance from an AI writing tool (GPT-5 Thinking, “Logos”). Reproducible artifacts live in this repository.
+**Authorship & tools.** Drafted by the human lead author Aleksandr Kolomiets ORCID 0009-0008-5153-5546 with assistance from an AI writing tool (GPT-5 Thinking, “Logos”). Reproducible artifacts live in this repository.
 
