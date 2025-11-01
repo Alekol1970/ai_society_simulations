@@ -2,13 +2,13 @@
 
 Minimal, reproducible pipeline for the preprint (ABM of platform filtering **E** and institutional response **R**). Clean figures, one notebook, and an appendix with protocols.
 
-[![DOI](https://zenodo.org/badge/<<ZENODO_BADGE_ID>>.svg)](https://doi.org/<<DOI_CURRENT_OR_CONCEPT>>)
+[![DOI](https://zenodo.org/badge/994276536.svg)](https://doi.org/10.5281/zenodo.17390051)
 ![License](https://img.shields.io/badge/Code-Apache--2.0-blue)
 ![Data/Text](https://img.shields.io/badge/Data/Text-CC%20BY%204.0-green)
 
 **Authors:** Kolomiets Aleksandr; AI co-author: GPT-5 Thinking (“Logos”)
 
-**Repository:** https://github.com/<<YOUR_GH_USER>>/ai_society_simulations
+**Repository:** https://github.com/Alekol1970/ai_society_simulations
 
 ## What’s inside
 - `notebooks/figures/ai_society_figures.ipynb` — single clean notebook (7 cells).
@@ -16,7 +16,7 @@ Minimal, reproducible pipeline for the preprint (ABM of platform filtering **E**
 - `figures/` — outputs created at runtime.
 - `appendix/` — F,G materials (EN/RU).
 ## Quick start (Colab)
-Open: https://colab.research.google.com/github/<<YOUR_GH_USER>>/ai_society_simulations/blob/main/notebooks/figures/ai_society_figures.ipynb
+Open: https://colab.research.google.com/github/Alekol1970/ai_society_simulations/blob/main/notebooks/figures/ai_society_figures.ipynb
 
 Run: **Runtime → Restart and run all**. Figures appear in `figures/`.
 ## Reproducibility
@@ -37,7 +37,7 @@ BibTeX:
   title={Agent-based modeling of platform filtering (E) and institutional response (R)},
   author={Kolomiets, Aleksandr},
   year={2025},
-  doi={<<DOI_CURRENT_OR_CONCEPT>>},
+  doi={10.5281/zenodo.17390052},
   howpublished={Open code and data}
 }
 ## Licenses
