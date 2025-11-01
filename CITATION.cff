@@ -4,19 +4,17 @@ title: "ai_society_simulations: ABM of platform filtering (E) and institutional 
 authors:
   - family-names: Kolomiets
     given-names: Aleksandr
-    orcid: "<<0009-0008-5153-5546>>"
-  - name: "GPT-5 Thinking (\"Logos\")"
+    orcid: "https://orcid.org/0009-0008-5153-5546"
+  - name: "GPT-5 Thinking (Logos)"
     affiliation: "AI co-author"
-version: "v0.1.2"
-doi: "<<DOI_CURRENT_OR_CONCEPT>>"
-date-released: "<<2025-11-01>>"
-license: "Apache-2.0"
-repository-code: "https://github.com/<<YOUR_GH_USER>>/ai_society_simulations"
+version: "0.1.2"
+date-released: "2025-11-01"
+license: Apache-2.0
+repository-code: "https://github.com/Alekol1970/ai_society_simulations"
 preferred-citation:
   type: misc
   title: "Agent-based modeling of platform filtering (E) and institutional response (R)"
-  author:
+  authors:
     - family-names: Kolomiets
       given-names: Aleksandr
   year: 2025
-  doi: "<<DOI_CURRENT_OR_CONCEPT>>"
