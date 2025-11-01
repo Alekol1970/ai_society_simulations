@@ -1,11 +1,15 @@
 # ai_society_simulations
 
 Minimal, reproducible pipeline for the preprint (ABM of platform filtering **E** and institutional response **R**). Clean figures, one notebook, and an appendix with protocols.
+
 [![DOI](https://zenodo.org/badge/<<ZENODO_BADGE_ID>>.svg)](https://doi.org/<<DOI_CURRENT_OR_CONCEPT>>)
 ![License](https://img.shields.io/badge/Code-Apache--2.0-blue)
 ![Data/Text](https://img.shields.io/badge/Data/Text-CC%20BY%204.0-green)
+
 **Authors:** Kolomiets Aleksandr; AI co-author: GPT-5 Thinking (“Logos”)
+
 **Repository:** https://github.com/<<YOUR_GH_USER>>/ai_society_simulations
+
 ## What’s inside
 - `notebooks/figures/ai_society_figures.ipynb` — single clean notebook (7 cells).
 - `scripts/repro.py` — generates figures/data.
