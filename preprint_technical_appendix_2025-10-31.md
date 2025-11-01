@@ -4,19 +4,33 @@ This appendix documents the exact steps and artifacts to fully reproduce the fig
 ## A. Repository layout (as of 2025-10-31)
 
 ai_society_simulations/
+
 ├── abm/
+
 │ └── abm_core.py
+
 ├── scripts/
+
 │ ├── make_charter_countries.py
+
 │ └── repro.py
+
 ├── notebooks/
+
 │ └── figures/
+
 │ └── ai_society_figures.ipynb
+
 ├── figures/ # generated on the fly
+
 ├── data/
+
 │ ├── cg_hr_data.csv # optional
+
 │ └── charter_countries.csv # auto-created if missing
+
 ├── README.md
+
 └── CITATION.cff
 
 ## B. Environment
@@ -25,16 +39,14 @@ ai_society_simulations/
 - Install deps:
 pip install -r requirements.txt
 
-### 1D — One-command repro
-```markdown
+### C. One-command repro
+
 - One-command repro:
+```bash
 python -m scripts.repro
+```
 
----
-
-### 2A — What the pipeline produces
-```markdown
-## C. What the pipeline produces
+## D. What the pipeline produces
 
 After a successful run, the folder `figures/` contains:
 
@@ -43,13 +55,13 @@ After a successful run, the folder `figures/` contains:
 - `s7_robustness.png` — App. A, Fig. S7: Robustness to `seed_frac ∈ {0.5%, 1%, 2%}` and `rng_seed ∈ {1, 11, 21}`  
 - `s7_robustness_summary.csv` — aggregates for S7 (mean / median / IQR)
 
-**Note:** Figure numbers are not baked into images; numbering is controlled by the manuscript.
+**Note:** Figure numbers are not baked into images; numbering is controlled by the manuscript. Artifacts are created on the fly; the repository does not track binaries.
 
-## D. Deterministic data seeding
+## E. Deterministic data seeding
 
 If `data/charter_countries.csv` is absent, `scripts/make_charter_countries.py` creates a deterministic demo table with fixed RNG to guarantee stability of the examples.
 
-## E. Mapping to manuscript
+## F. Mapping to manuscript
 
 **Main text**  
 - Fig. 1 → `fig1_grid_ER.png`  
@@ -58,16 +70,16 @@ If `data/charter_countries.csv` is absent, `scripts/make_charter_countries.py` c
 **Appendix A**  
 - Fig. S7 → `s7_robustness.png` (+ `s7_robustness_summary.csv`)
 
-## F. Notes on robustness (S7)
+## G. Notes on robustness (S7)
 
 Boxplots are computed over 9 values per (E,R) cell (3 `seed_frac` × 3 `rng_seed`). Ordering across (E,R) is preserved; IQR typically ≈ 0.01–0.03. See CSV for exact aggregates.
 
-## G. Re-running in Colab (optional)
+## H. Re-running in Colab (optional)
 
 Open `notebooks/figures/ai_society_figures.ipynb` → **Runtime** → **Restart and run all**.  
 The notebook calls the same `scripts.repro` functions and writes artifacts into `figures/`.
 
-## H. Provenance & licensing
+## I. Provenance & licensing
 
 - Code: Apache-2.0  
 - Text & figures in this appendix: CC BY 4.0  
