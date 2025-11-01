@@ -1,78 +1,104 @@
 # AI & Society — ABM Repro Package
 
-Code and materials for a minimal agent-based model (ABM) of the joint effect of **E** (platform filtering) and **R** (institutional response) on harmful-content spread.
+[![DOI](https://zenodo.org/badge/994276536.svg)](https://doi.org/10.5281/zenodo.17390051)
 
----
+Код и материалы для препринта об агент-ориентированной модели (ABM) взаимодействия **E** (platform filtering) и **R** (institutional response).
 
-## Quick start
+## Быстрый запуск (Windows / macOS / Linux)
 
-### 1) Create & activate venv
+```bash
+# 1) создать и активировать окружение
+python -m venv .venv
+# Windows:
+.\.venv\Scriptsctivate
+# macOS/Linux:
+# source .venv/bin/activate
 
-    python -m venv .venv
+# 2) установить зависимости
+pip install -r requirements.txt
 
-    # Windows:
-    .\.venv\Scripts\activate
-    # macOS/Linux:
-    source .venv/bin/activate
+# 3) воспроизвести все основные рисунки
+python -m scripts.repro
+```
 
-### 2) Install deps
+Скрипт:
+1) гарантирует наличие `data/charter_countries.csv` (создаёт детерминированный демо-набор, если файла нет);
+2) строит **Fig.1–3** в папке `figures/`.
 
-    pip install -r requirements.txt
+## Структура
 
-### 3) Reproduce core figures
+```text
+abm/
+  abm_core.py                  # ядро ABM (параметры E, R)
+scripts/
+  make_charter_countries.py    # безопасно формирует data/charter_countries.csv при необходимости
+  repro.py                     # Точка входа: генерирует Fig.1–3 "одной командой"
+data/
+  cg_hr_data.csv               # (опционально) исходник; при отсутствии генерится демо-таблица
+  charter_countries.csv        # создаётся автоматически, если не найден
+figures/
+  fig1_grid_ER.png
+  fig2_timeseries.png
+  fig3_robustness.png
+  fig3_robustness_summary.csv  # агрегаты к Fig.3 (mean/median/IQR)
+notebooks/
+  analysis/
+    ai_society_simulations.ipynb   # полный анализ/эксперименты (источник правды)
+  figures/
+    ai_society_figures.ipynb       # человеко-читаемая отрисовка/варианты фигур
+  appendix/
+    # опциональные ноутбуки с дополнительными проверками
+tests/
+  test_abm.py
+requirements.txt
+environment.yml
+```
 
-    python -m scripts.repro
+## Что показывают основные рисунки
 
-The script:
-- ensures `data/charter_countries.csv` exists (creates a deterministic demo if missing);
-- writes **Fig. 1–2** and **App. A, Fig. S7** to `figures/`.
+- **Fig.1** — финальная распространённость по сетке (E,R).
+- **Fig.2** — динамика распространённости во времени для выбранных пар (E,R).
+- **Fig.3 (Robustness)** — устойчивость результатов при варьировании **инициализации**:
+  seed fraction ∈ {0.5%, 1%, 2%} и rng seed ∈ {1, 11, 21}.
+  Порядок исходов по (E,R) сохраняется, разброс малый (см. `fig3_robustness_summary.csv`).
 
----
+## Code & Data availability
 
-## Layout
+All code and data to reproduce the figures are openly available at **Concept DOI: 10.5281/zenodo.17390052**.  
+This release (**v0.1.0**) is archived under **Version DOI: 10.5281/zenodo.17390051**.
 
-    abm/
-      abm_core.py
-    scripts/
-      make_charter_countries.py
-      repro.py
-    notebooks/
-      figures/
-        ai_society_figures.ipynb
-    figures/                 # generated here by the pipeline
-    data/
-      cg_hr_data.csv         # (optional)
-      charter_countries.csv  # (auto-created if missing)
+Core figures are generated with a single command:
+```bash
+python -m scripts.repro
+```
 
----
+A deterministic demo dataset (`data/charter_countries.csv`) is created automatically if `cg_hr_data.csv` is absent.  
+Additional plotting steps and the t₀-sensitivity artifacts are provided in `notebooks/figures/ai_society_figures.ipynb`.
 
-## What the figures show
+## License
 
-- **Fig. 1** — Final prevalence across **E,R** (heatmap).
-- **Fig.  2** — Prevalence dynamics for selected (E,R).
-- **App. A, Fig. S7** — Robustness to `seed_frac` and RNG seed across (E,R); CSV summary saved as `s7_robustness_summary.csv`.
+[![License: Apache-2.0](https://img.shields.io/badge/Code-Apache--2.0-blue.svg)](./LICENSE)
+[![License: CC BY 4.0](https://img.shields.io/badge/Text%20%26%20Figures-CC%20BY%204.0-green.svg)](./LICENSE-DOCS)
+[![License: CC BY 4.0](https://img.shields.io/badge/Data-CC%20BY%204.0-green.svg)](./LICENSE-DATA)
 
----
+- **Code:** Apache-2.0  
+- **Text & figures:** CC BY 4.0  
+- **Data:** CC BY 4.0
 
-## Extended appendices
+By using this repository you agree to the terms above.  
+See the license files in the root directory for full texts.
 
-See **[`appendix/`](./appendix/)**:
-- F — Operationalizing **E\*** (energy metric)
-- G — Validation plan for indices
-- H — Ethics & anthropology
-- I — Trust & safety protocols
+## Citation
 
----
+If you use this repository, please cite the archived release:
 
-## Citing this repository
-
-> Replace the DOI after you mint the new Zenodo release.
-
-    @misc{kolomiets_abm_er_2025,
-      title        = {Agent-based modeling of platform filtering (E) and institutional response (R)},
-      author       = {Kolomiets, Aleksandr},
-      year         = {2025},
-      howpublished = {Open code and data},
-      doi          = {10.5281/zenodo.TBD},
-      url          = {https://doi.org/10.5281/zenodo.TBD}
-    }
+```bibtex
+@misc{alekseev_abm_er_2025,
+  title        = {Agent-based modeling of platform filtering (E) and institutional response (R)},
+  author       = {Alekseev, Alexander},
+  year         = {2025},
+  howpublished = {Open code and data},
+  doi          = {10.5281/zenodo.17390051},
+  url          = {https://doi.org/10.5281/zenodo.17390051}
+}
+```
