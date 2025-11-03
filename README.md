@@ -3,8 +3,10 @@
 Minimal, reproducible pipeline for the preprint (ABM of platform filtering **E** and institutional response **R**). Clean figures, one notebook, and an appendix with protocols.
 
 [![DOI](https://zenodo.org/badge/994276536.svg)](https://doi.org/10.5281/zenodo.17390051)
-![License](https://img.shields.io/badge/Code-Apache--2.0-blue)
-![Data/Text](https://img.shields.io/badge/Data/Text-CC%20BY%204.0-green)
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+[![Docs: CC BY 4.0](https://img.shields.io/badge/Docs-CC_BY_4.0-lightgrey.svg)](LICENSE-DOCS)
+
+
 
 **Authors:** Kolomiets Aleksandr; AI co-author: GPT-5 Thinking (“Logos”)
 
@@ -27,8 +29,8 @@ Run: **Runtime → Restart and run all**. Figures appear in `figures/`.
   - `figures/s7_robustness.png`
   - `figures/s7_robustness_summary.csv`
 ## Appendix
-- Appendix F (Energy / Ethics): `appendix/Appendix_F_operationalizing_energy_EN.md` (+RU)
-- Appendix G (Validation / Trust): `appendix/Appendix_G_validation_plan_EN.md` (+RU)
+- Appendix F (Energy / Ethics): `appendix/Appendix_F_operationalizing_energy_EN.md`
+- Appendix G (Validation / Trust): `appendix/Appendix_G_validation_plan_EN.md`
 ## Cite
 See `CITATION.cff`.
 
