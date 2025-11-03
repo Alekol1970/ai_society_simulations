@@ -6,7 +6,8 @@ Minimal, reproducible pipeline for the preprint (ABM of platform filtering **E**
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Docs: CC BY 4.0](https://img.shields.io/badge/Docs-CC_BY_4.0-lightgrey.svg)](LICENSE-DOCS)
 
-
+**Commercial add-ons.** Materials listed in `appendix/License_Overview_*` (e.g., EmoTest-NG scoring rules, operator manuals, training scripts, branding assets) are offered under **separate commercial terms** upon request and are **not** covered by the open-source licenses in this repository.
+**Trademarks/brand names**: any use requires prior permission.
 
 **Authors:** Kolomiets Aleksandr; AI co-author: GPT-5 Thinking (“Logos”)
 
