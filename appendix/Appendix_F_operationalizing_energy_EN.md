@@ -1,4 +1,4 @@
-```markdown
+
 # Appendix F — Operationalizing the “Energy-Efficiency of Intervention” (E*)
 
 ## F1. Rationale
