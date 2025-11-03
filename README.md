@@ -16,7 +16,7 @@ Minimal, reproducible pipeline for the preprint (ABM of platform filtering **E**
 - `figures/` — outputs created at runtime.
 - `appendix/` — F,G materials (EN/RU).
 ## Quick start (Colab)
-Open: https://colab.research.google.com/github/Alekol1970/ai_society_simulations/blob/main/notebooks/figures/ai_society_figures.ipynb
+Open: https://colab.research.google.com/github/Alekol1970/ai_society_simulations/blob/main/notebooks/ai_society_figures.ipynb
 
 Run: **Runtime → Restart and run all**. Figures appear in `figures/`.
 ## Reproducibility
