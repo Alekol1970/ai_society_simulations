@@ -1,16 +1,28 @@
 cff-version: 1.2.0
-message: "If you use this software or its figures, please cite it."
+message: "If you use this work, please cite it as below."
 title: "ai_society_simulations: ABM of platform filtering (E) and institutional response (R)"
 authors:
   - family-names: Kolomiets
     given-names: Aleksandr
-    orcid: "https://orcid.org/0009-0008-5153-5546"
-  - name: "GPT-5 Thinking (Logos)"
-    affiliation: "AI co-author"
-version: "0.1.2"
-date-released: "2025-11-01"
-license: Apache-2.0
+    orcid: "https://orcid.org/[your-orcid]"
+contact:
+  email: "[your-email]"
+abstract: >
+  Minimal, reproducible pipeline for the preprint on agent-based modeling of
+  platform filtering (E) and institutional response (R), including clean figures,
+  one notebook, and an appendix with supervisory/ethical protocols (G.1–G.2).
+license: "Apache-2.0 and CC-BY-NC-4.0"
 repository-code: "https://github.com/Alekol1970/ai_society_simulations"
+doi: "[your-zenodo-doi]"
+version: "1.0.0"
+date-released: "2025-11-06"
+keywords:
+  - agent-based modeling
+  - social computing
+  - platform governance
+  - robustness analysis
+  - ethics of AI
+  - human–AI interaction
 preferred-citation:
   type: misc
   title: "Agent-based modeling of platform filtering (E) and institutional response (R)"
@@ -18,3 +30,15 @@ preferred-citation:
     - family-names: Kolomiets
       given-names: Aleksandr
   year: 2025
+  doi: "[your-zenodo-doi]"
+  notes: "Open code & data; figures reproducible from scripts/repro.py"
+related-identifiers:
+  - type: doi
+    value: "10.5281/zenodo.17390051"
+    description: "Repository badge DOI (Zenodo)"
+    relation: isSupplementTo
+  - type: doi
+    value: "10.5281/zenodo.17390052"
+    description: "BibTeX example DOI"
+    relation: isAlternateIdentifier
+
