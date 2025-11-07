@@ -1,0 +1,42 @@
+name: Update CITATION on release
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write   # нужно, чтобы push прошёл
+
+jobs:
+  bump-citation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set version/date in CITATION.cff
+        shell: bash
+        run: |
+          set -euo pipefail
+          FILE="CITATION.cff"
+          VER="${{ github.event.release.tag_name }}"
+          VER="${VER#v}"                          # срезаем префикс v, если есть
+          DATE="$(date -u +%Y-%m-%d)"
+
+          # если нет строк — добавим; если есть — заменим
+          grep -q '^version:' "$FILE" \
+            && sed -i -E "s/^version:.*/version: \"${VER}\"/" "$FILE" \
+            || printf "\nversion: \"%s\"\n" "$VER" >> "$FILE"
+
+          grep -q '^date-released:' "$FILE" \
+            && sed -i -E "s/^date-released:.*/date-released: \"${DATE}\"/" "$FILE" \
+            || printf "date-released: \"%s\"\n" "$DATE" >> "$FILE"
+
+      - name: Commit changes
+        run: |
+          git config user.name  "github-actions"
+          git config user.email "actions@github.com"
+          git add CITATION.cff
+          git commit -m "ci: bump CITATION to ${{ github.event.release.tag_name }}"
+          git push
