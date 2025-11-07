@@ -1,6 +1,10 @@
 # Appendix — AI & Society: ABM Repro Package
 
-This folder contains extended materials that accompany the preprint and the reproducible notebook.
+Extended materials that accompany the preprint and the reproducible notebook.
+
+**License:** CC BY-NC 4.0 (non-commercial). For commercial use, contact the author.  
+**Proprietary modules (separate terms):** Music Mirror, Video Mirror (symbolic shorts), Pair Dynamics.  
+**Proof of authorship (eAuthor.eu):** see root `NOTICE.txt` for certificate IDs and timestamps.
 
 ## What’s here
 
@@ -16,6 +20,7 @@ This folder contains extended materials that accompany the preprint and the repr
 - **[Appendix_I_trust_safety_en.md](./Appendix_I_trust_safety_en.md)**  
   Trust & safety protocols: confidence-gated interventions, escalation cascade, compact-intent rules, and consent/logging.
 
-> **Versioning note.** These files are the source of truth for the extended appendices and may be updated independently of the PDF preprint.
+- **G.1 (Mirror & Separation):** `Appendix_G1_Mirror_and_Separation_EN.md`  
+- **G.2 (Risk Cascade):** `Appendix_G2_Risk_Cascade_EN.md`
 
----
+> **Versioning note.** These files are the source of truth for the extended appendices and may be updated independently of the PDF preprint.
