@@ -7,6 +7,8 @@ Minimal, reproducible pipeline for the preprint (ABM of platform filtering **E**
 
 **Latest version DOI:**  
 [![Latest version DOI](https://zenodo.org/badge/994276536.svg)](https://zenodo.org/badge/latestdoi/994276536)
+[![Release](https://img.shields.io/github/v/release/Alekol1970/ai_society_simulations?display_name=tag&sort=semver)](https://github.com/Alekol1970/ai_society_simulations/releases)
+
 
 [![License: Apache-2.0 (Code)](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Docs: CC BY-NC 4.0](https://img.shields.io/badge/Docs-CC_BY--NC_4.0-lightgrey.svg)](LICENSE-DOCS)
