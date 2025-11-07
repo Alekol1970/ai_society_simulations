@@ -20,7 +20,7 @@ Extended materials that accompany the preprint and the reproducible notebook.
 - **[Appendix_I_trust_safety_en.md](./Appendix_I_trust_safety_en.md)**  
   Trust & safety protocols: confidence-gated interventions, escalation cascade, compact-intent rules, and consent/logging.
 
-- **G.1 (Mirror & Separation):** `Appendix_G1_Mirror_and_Separation_EN.md`  
-- **G.2 (Risk Cascade):** `Appendix_G2_Risk_Cascade_EN.md`
+- **[G.1 (Mirror & Separation)](./Appendix_G1_Mirror_and_Separation_EN.md)**
+- **[G.2 (Risk Cascade)](./Appendix_G2_Risk_Cascade_EN.md)**
 
 > **Versioning note.** These files are the source of truth for the extended appendices and may be updated independently of the PDF preprint.
