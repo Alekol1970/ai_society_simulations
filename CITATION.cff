@@ -3,40 +3,39 @@ message: "If you use this work, please cite it as below."
 title: "ai_society_simulations: ABM of platform filtering (E) and institutional response (R)"
 authors:
   - family-names: Kolomiets
-  - given-names: Aleksandr
-    orcid: "https://orcid.org/0009-0008-5153-5546"
+    given-names: Aleksandr
+    orcid: "https://orcid.org/0000-0000-5153-5546"
 contact:
-  email: "[ai.society.commercial@gmail.com]"
+  email: "ai.society.commercial@gmail.com"
 abstract: >
   Minimal, reproducible pipeline for the preprint on agent-based modeling of
   platform filtering (E) and institutional response (R), including clean figures,
   one notebook, and an appendix with supervisory/ethical protocols (G.1–G.2).
-license: "Apache-2.0 and CC-BY-NC-4.0"
+license: "Apache-2.0"            # одна лицензия для кода; лицензии на тексты/данные описаны в README
 repository-code: "https://github.com/Alekol1970/ai_society_simulations"
-doi: "https://doi.org/10.5281/zenodo.17390051"
+doi: "10.5281/zenodo.17390051"   # DOI-концепта (всех версий)
 keywords:
   - agent-based modeling
   - social computing
   - platform governance
   - robustness analysis
   - ethics of AI
-  - human–AI interaction
+  - human-AI interaction
+
 preferred-citation:
   type: misc
   title: "Agent-based modeling of platform filtering (E) and institutional response (R)"
   authors:
     - family-names: Kolomiets
-    - given-names: Aleksandr
-  year: 2025
-  doi: "[your-zenodo-doi]"
+      given-names: Aleksandr
+  doi: "10.5281/zenodo.17390051"
   notes: "Open code & data; figures reproducible from scripts/repro.py"
+
 related-identifiers:
   - type: doi
     value: "10.5281/zenodo.17390051"
-    description: "Repository badge DOI (Zenodo)"
-    relation: isSupplementTo
-  - type: doi
-    value: "10.5281/zenodo.17390052"
-    description: "BibTeX example DOI"
+    description: "Concept DOI (Zenodo)"
     relation: isAlternateIdentifier
-
+  - type: url
+    value: "https://github.com/Alekol1970/ai_society_simulations"
+    relation: isSupplementTo
