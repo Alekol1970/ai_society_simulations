@@ -1,0 +1,45 @@
+NOTICE — AI-Companionship
+
+Author & Copyright
+© 2025, Aleksandr Kolomiets. All rights reserved for commercial use.
+
+Licensing Overview
+- Code & algorithms: Apache-2.0 (see LICENSE)
+- Texts & conceptual materials (Appendix F/G, G.1–G.2): CC BY-NC 4.0 (see LICENSE-DOCS)
+- Data / tables / index structures: ODC-By 1.0 + CC BY-NC 4.0 (see LICENSE-DATA)
+- Audio / regulatory scripts: Proprietary — use by written permission only
+
+Proprietary Modules (Commercial License Only)
+- Music Mirror (neuro-emotional audio interface)
+- Video Mirror (symbolic short films; 2D/3D geometric characters)
+- Pair Dynamics (relationship patterns & routing)
+Commercial use prohibited without written consent of Aleksandr Kolomiets.
+
+Commercial Concepts (Proprietary — commercial license only)
+- Pilot: AI Companion (B2B/B2G)
+- AI-led Webinar / Training
+- Pairs Game (SaaS)
+- EmoTest-NG
+- Trust & Safety / Ethics Pack
+- Energy Analytics / Journals
+- R&D Bundle (datasets + notebook)
+- Platform Playbooks
+- Case Studies / Reports
+- Learning Products
+- Music Mirror (neuro-emotional audio layer)
+- Video Mirror (symbolic shorts; 2D/3D geometric figures)
+- Computer Game as Mirror
+- Series: Companion Implementation
+- Equity / Revenue-share Model
+
+Proof of Authorship (eAuthor.eu)
+Repository snapshot and key files are registered on eAuthor.eu:
+- Snapshot ZIP: ID […], Timestamp (UTC) […], Hash […]
+- Preprint (PDF/DOCX): ID […], Timestamp (UTC) […], Hash […]
+- Appendix G.1 (PDF/DOCX): ID […], Timestamp (UTC) […], Hash […]
+Concept Notes (eAuthor.eu):
+- Music Mirror concept note: ID […], Timestamp (UTC) […], Hash […]
+- Video Mirror concept note: ID […], Timestamp (UTC) […], Hash […]
+- Pair Dynamics concept note: ID […], Timestamp (UTC) […], Hash […]
+
+Contact (licensing & permissions): <ai.society.commercial@gmail.com>

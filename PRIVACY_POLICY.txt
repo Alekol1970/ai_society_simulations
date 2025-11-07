@@ -1,0 +1,35 @@
+PRIVACY POLICY — AI-Companionship (Repository & Materials)
+
+Scope
+This repository does not collect personal data. If example scripts are used in applications, they may process user inputs locally.
+
+Audio / Music (optional features)
+When enabled, only technical audio metadata (e.g., duration, loudness) may be processed. No audio content is stored or transmitted without explicit user consent.
+
+Media Processing
+- Inputs: optional textual mood notes and high-level tags; no personal identifiers required.
+- Processing: generation parameters are stored ephemerally; media files are retained only if the user saves them.
+- No Catalogs: no bundled music catalogs; any audio use relies on user-owned content or license-free generative layers.
+
+Data Controller & Legal Basis
+- Data Controller: Aleksandr Kolomiets (<your-email-here>).
+- Legal Basis: consent (opt-in). You can withdraw consent at any time.
+
+User Rights
+- Access, rectification, deletion, restriction, portability, and objection — by request to <your-email-here>. We respond within 30 days.
+
+Children
+- The materials are not directed to children under 13/16 (jurisdiction-dependent). Any optional “child mode” uses only high-level risk indicators (no emotional streams).
+
+Data Minimization & Retention
+- Default is local/ephemeral processing; generated media are retained only if the user saves them. Logs contain only technical events; no raw emotional content.
+
+Third-Party Services
+If users connect external services (e.g., music providers), their policies apply. The author is not responsible for third-party providers.
+
+Data Retention and Deletion
+User-generated files remain on the user’s device or environment (e.g., Colab) and can be deleted by the user at any time.
+
+Contact
+For privacy inquiries: <your-email-here>
+© 2025, Aleksandr Kolomiets.

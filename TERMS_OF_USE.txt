@@ -1,0 +1,43 @@
+TERMS OF USE — AI-Companionship (Repository & Materials)
+
+1) Purpose
+This repository is provided for research and educational use only. It is not a medical device or psychotherapy service.
+
+2) Non-Commercial Use
+All textual and conceptual materials (including supervisory protocols G.1–G.2) are CC BY-NC 4.0. Commercial use requires written consent from the author (Aleksandr Kolomiets).
+
+3) Audio / Music
+No music catalogue is provided. Any audio analysis (tempo, loudness) is optional and, if enabled by the user, shall be processed locally or ephemerally. Users must hold rights for any audio they load or play.
+
+4) Generated Media & IP
+- Ownership: Unless otherwise agreed, the user holds personal-use rights to media generated for them; the underlying modules, prompts, templates, and routing logic remain proprietary to Aleksandr Kolomiets.
+- No Model Training: User inputs and generated outputs are not used for model training without explicit consent.
+- Safety Limits: No first-person re-enactment of traumatic events; symbolic distancing is enforced. Users can mark “stop-topics” to exclude content.
+- Non-therapy: Media is supportive, not psychotherapy; crisis content is out of scope.
+
+5) No Professional Advice
+Outputs are for informational purposes and do not constitute clinical or legal advice.
+
+6) Trademarks
+Use of any trademarks, logos, or brand names from this repository is prohibited without prior permission.
+
+7) Termination
+Violations of these terms may result in access limitation or takedown notices (e.g., DMCA equivalents).
+
+8) Takedown Procedure
+If you believe materials or generated media infringe your rights, email takedown requests to <your-email-here> with: (a) your contact details, (b) the exact URL/path, (c) proof of ownership or authorization, and (d) a short description of the claim. We may remove or restrict access while reviewing the claim.
+
+9) Governing Law & Venue
+These Terms are governed by the laws of England & Wales (conflict rules excluded). Exclusive venue: courts of England & Wales.
+
+10) No Warranty
+Materials are provided “as is” and “as available,” without warranties of any kind, express or implied.
+
+11) Limitation of Liability
+To the maximum extent permitted by law, liability is limited to direct damages up to USD 100 (or statutory minimum); no liability for indirect, incidental, special, or consequential damages.
+
+12) Changes to Terms
+We may update these Terms by posting a new version in the repository. Continued use after changes constitutes acceptance.
+
+Contact (licensing): <your-email-here>
+© 2025, Aleksandr Kolomiets. All rights reserved for commercial use.
