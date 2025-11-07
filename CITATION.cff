@@ -3,19 +3,17 @@ message: "If you use this work, please cite it as below."
 title: "ai_society_simulations: ABM of platform filtering (E) and institutional response (R)"
 authors:
   - family-names: Kolomiets
-    given-names: Aleksandr
-    orcid: "https://orcid.org/[your-orcid]"
+  - given-names: Aleksandr
+    orcid: "https://orcid.org/0009-0008-5153-5546"
 contact:
-  email: "[your-email]"
+  email: "[ai.society.commercial@gmail.com]"
 abstract: >
   Minimal, reproducible pipeline for the preprint on agent-based modeling of
   platform filtering (E) and institutional response (R), including clean figures,
   one notebook, and an appendix with supervisory/ethical protocols (G.1–G.2).
 license: "Apache-2.0 and CC-BY-NC-4.0"
 repository-code: "https://github.com/Alekol1970/ai_society_simulations"
-doi: "[your-zenodo-doi]"
-version: "1.0.0"
-date-released: "2025-11-06"
+doi: "https://doi.org/10.5281/zenodo.17390051"
 keywords:
   - agent-based modeling
   - social computing
@@ -28,7 +26,7 @@ preferred-citation:
   title: "Agent-based modeling of platform filtering (E) and institutional response (R)"
   authors:
     - family-names: Kolomiets
-      given-names: Aleksandr
+    - given-names: Aleksandr
   year: 2025
   doi: "[your-zenodo-doi]"
   notes: "Open code & data; figures reproducible from scripts/repro.py"
