@@ -32,14 +32,19 @@ Commercial Concepts (Proprietary — commercial license only)
 - Series: Companion Implementation
 - Equity / Revenue-share Model
 
-Proof of Authorship (eAuthor.eu)
-Repository snapshot and key files are registered on eAuthor.eu:
-- Snapshot ZIP: ID […], Timestamp (UTC) […], Hash […]
-- Preprint (PDF/DOCX): ID […], Timestamp (UTC) […], Hash […]
-- Appendix G.1 (PDF/DOCX): ID […], Timestamp (UTC) […], Hash […]
-Concept Notes (eAuthor.eu):
-- Music Mirror concept note: ID […], Timestamp (UTC) […], Hash […]
-- Video Mirror concept note: ID […], Timestamp (UTC) […], Hash […]
-- Pair Dynamics concept note: ID […], Timestamp (UTC) […], Hash […]
+Proof of Authorship & Integrity
+
+[Zenodo evidence]
+- Endorsement emails bundle (ZIP): Zenodo DOI 10.5281/zenodo.17556076, Published (UTC) 2025-11-08.
+  Contents: raw .eml + printable PDFs (“message” & “Show original” headers) + original .docx (+ optional PDF) + CHECKSUMS.txt (SHA-256).
+  Integrity: verify SHA-256 hashes from CHECKSUMS.txt inside the ZIP.
+
+[GitHub release]
+- Repository: https://github.com/Alekol1970/ai_society_simulations
+- Latest tagged release: v1.0.3 (or newer). Tag/hash serve as a public timestamp for code/text state.
+- (Optional) Signed tags: GPG signature attached to release tags.
+
+[Planned registrations]
+- Concept notes (Music Mirror / Video Mirror / Pair Dynamics): to be deposited on Zenodo/OSF with “isSupplementTo” relation to the main concept DOI (10.5281/zenodo.17390051). DOIs will be added here upon publication.
 
 Contact (licensing & permissions): <ai.society.commercial@gmail.com>
