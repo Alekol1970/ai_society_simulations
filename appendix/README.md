@@ -4,8 +4,8 @@ Extended materials that accompany the preprint and the reproducible notebook.
 
 **License:** CC BY-NC 4.0 (non-commercial). For commercial use, contact the author.  
 **Proprietary modules (separate terms):** Music Mirror, Video Mirror (symbolic shorts), Pair Dynamics.  
-**Proof of authorship (eAuthor.eu):** see root `NOTICE.txt` for certificate IDs and timestamps.
-
+**Proof of authorship (Zenodo):** see root NOTICE.txt for DOI.
+ 
 ## What’s here
 
 - **[Appendix_F_operationalizing_energy_EN.md](./Appendix_F_operationalizing_energy_EN.md)**  
