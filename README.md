@@ -14,12 +14,11 @@ Minimal, reproducible pipeline for the preprint (ABM of platform filtering **E**
 [![Docs: CC BY-NC 4.0](https://img.shields.io/badge/Docs-CC_BY--NC_4.0-lightgrey.svg)](LICENSE-DOCS)
 [![Data: ODC-By + CC BY-NC](https://img.shields.io/badge/Data-ODC--By_1.0_+_CC_BY--NC_4.0-lightgrey.svg)](LICENSE-DATA)
 
-<a id="proof-eauthor"></a>
-
-**Proof of authorship (eAuthor.eu).**
-
-> Repository snapshot and key files are registered on eAuthor.eu.  
-> See [`NOTICE.txt`](./NOTICE.txt) for certificate IDs and timestamps.
+**Proof of authorship & integrity**
+- Evidence bundle (endorsement emails) registered on **Zenodo** — see `NOTICE.txt` for DOI and details.
+- Releases are tagged on GitHub; figures/notebooks are reproducible from `scripts/repro.py`.
+- Checksums for evidence files are inside the ZIP (`CHECKSUMS.txt`).
+Release tags are GPG-signed
 
 ---
 
