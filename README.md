@@ -3,7 +3,7 @@
 ## Preprint
 
 The canonical preprint describing the companion architecture and simulations is available as  
-[`ai-companion_social-shift_preprint_arxiv_v0.1.3.pdf`](ai-companion_social-shift_preprint_arxiv_v0.1.3.pdf).
+[`ai-companion_social-shift_preprint_arxiv_v0.1.4.pdf`](ai-companion_social-shift_preprint_arxiv_v0.1.4.pdf).
 
 
 Minimal, reproducible pipeline for the preprint (ABM of platform filtering **E** and institutional response **R**). Clean figures, one notebook, and an appendix with protocols.
