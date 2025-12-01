@@ -34,6 +34,11 @@ Commercial Concepts (Proprietary — commercial license only)
 
 Proof of Authorship & Integrity
 
+[Preprint version]
+- Current preprint PDF: ai-companion_social-shift_preprint_arxiv_v0.1.4.pdf
+- This file supersedes v0.1.3 (typo fixes, clarified methods, limitations and governance).
+- Concept DOI (Zenodo): 10.5281/zenodo.17390730
+
 [Zenodo evidence]
 - Endorsement emails bundle (ZIP): Zenodo DOI 10.5281/zenodo.17556076, Published (UTC) 2025-11-08.
   Contents: raw .eml + printable PDFs (“message” & “Show original” headers) + original .docx (+ optional PDF) + CHECKSUMS.txt (SHA-256).
