@@ -85,12 +85,28 @@ Open: https://colab.research.google.com/github/Alekol1970/ai_society_simulations
 Run: **Runtime → Restart and run all**. Figures appear in `figures/`.
 
 ## Reproducibility
-- Deterministic params in `scripts/repro.py`.
-- Generated files:
-  - `figures/fig1_grid_ER.png`
-  - `figures/fig2_timeseries.png`
-  - `figures/s7_robustness.png`
-  - `figures/s7_robustness_summary.csv`
+
+The simulation is deterministic given the parameters specified in
+`scripts/repro.py`.
+
+### Reproducible figures
+
+The script
+
+    python -m scripts.repro
+
+regenerates the main ABM-based quantitative figures used in the paper
+(e.g. the E–R surface and robustness plots for seed shares and parameter
+perturbations), including the images underlying Figures 1 and S7.
+
+In addition, the notebook produces a small number of exploratory plots
+(e.g. `figures/fig2_timeseries.png`) that were useful for inspection
+but are not used directly in the article.
+
+Conceptual and purely illustrative diagrams (such as coverage and budget
+scenarios or the global military-expenditure curve in the supplement)
+are hand-crafted for clarity and are not intended to be generated
+automatically from code.
 
 ## Appendix
 - Appendix F (Energy / Ethics): `appendix/Appendix_F_operationalizing_energy_EN.md`
