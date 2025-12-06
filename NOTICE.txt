@@ -35,9 +35,10 @@ Commercial Concepts (Proprietary — commercial license only)
 Proof of Authorship & Integrity
 
 [Preprint version]
-- Current preprint PDF: ai-companion_social-shift_preprint_arxiv_v0.1.5.pdf
-- This file supersedes v0.1.3 and v0.1.4 (typo fixes, clarified methods, limitations and governance).
-- Version DOI (Zenodo, v0.1.5): 10.5281/zenodo.17774418
+- Current canonical preprint (EN): ai-companion_social-shift_preprint_arxiv_v0.1.5.pdf
+- Parallel Russian translation (RU): ai-companion_social-shift_preprint_ru_v0.1.5.pdf
+- Both PDFs correspond to GitHub release v0.1.5; the English version is the primary reference text.
+- Latest archived version on Zenodo (EN, v0.1.4): 10.5281/zenodo.17774418
 - Concept DOI (all versions): 10.5281/zenodo.17390051
 
 [Zenodo evidence]
