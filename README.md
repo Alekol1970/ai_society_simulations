@@ -1,9 +1,14 @@
 # ai_society_simulations
 
-## Preprint
+## Preprints
 
-The canonical preprint describing the companion architecture and simulations is available as  
-[`ai-companion_social-shift_preprint_arxiv_v0.1.5.pdf`](ai-companion_social-shift_preprint_arxiv_v0.1.5.pdf).
+- **English canonical version (v0.1.5)**  
+  [`ai-companion_social-shift_preprint_arxiv_v0.1.5.pdf`](ai-companion_social-shift_preprint_arxiv_v0.1.5.pdf)  
+  Main reference text for arXiv and journals.
+
+- **Russian translation (v0.1.5)**  
+  [`ai-companion_social-shift_preprint_ru_v0.1.5.pdf`](ai-companion_social-shift_preprint_ru_v0.1.5.pdf)  
+  Conceptual translation of the canonical preprint for Russian-speaking readers; content is aligned with the English v0.1.5 version.
 
 
 Minimal, reproducible pipeline for the preprint (ABM of platform filtering **E** and institutional response **R**). Clean figures, one notebook, and an appendix with protocols.
