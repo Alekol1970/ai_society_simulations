@@ -38,7 +38,7 @@ Proof of Authorship & Integrity
 - Current canonical preprint (EN): ai-companion_social-shift_preprint_arxiv_v0.1.5.pdf
 - Parallel Russian translation (RU): ai-companion_social-shift_preprint_ru_v0.1.5.pdf
 - Both PDFs correspond to GitHub release v0.1.5; the English version is the primary reference text.
-- Latest archived version on Zenodo (EN, v0.1.4): 10.5281/zenodo.17774418
+- Latest archived version on Zenodo (EN, v0.1.5): 10.5281/zenodo.17838177
 - Concept DOI (all versions): 10.5281/zenodo.17390051
 
 [Zenodo evidence]
