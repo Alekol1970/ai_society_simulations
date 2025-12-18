@@ -10,6 +10,13 @@
   [`ai-companion_social-shift_preprint_ru_v0.1.5.pdf`](ai-companion_social-shift_preprint_ru_v0.1.5.pdf)  
   Conceptual translation of the canonical preprint for Russian-speaking readers; content is aligned with the English v0.1.5 version.
 
+## Essays
+
+- **Reflections on the Meaning of Contact Interruptions (RU+EN)** — Zenodo record (two files: Russian & English).  
+  **Concept DOI (all versions):** https://doi.org/10.5281/zenodo.17952160  
+  **Cite as:** Kolomiets, A. (2025). *Reflections on the Meaning of Contact Interruptions (RU+EN).* Zenodo. https://doi.org/10.5281/zenodo.17952160
+
+##
 
 Minimal, reproducible pipeline for the preprint (ABM of platform filtering **E** and institutional response **R**). Clean figures, one notebook, and an appendix with protocols.
 
