@@ -2,12 +2,12 @@
 
 ## Preprints
 
-- **English canonical version (v0.1.5)**  
-  [`ai-companion_social-shift_preprint_arxiv_v0.1.5.pdf`](ai-companion_social-shift_preprint_arxiv_v0.1.5.pdf)  
+- **English canonical version (v0.1.6)**  
+  [`ai-companion_social-shift_preprint_socarxiv_v0.1.6.pdf`](ai-companion_social-shift_preprint_socarxiv_v0.1.6.pdf)  
   Main reference text for arXiv and journals.
 
-- **Russian translation (v0.1.5)**  
-  [`ai-companion_social-shift_preprint_ru_v0.1.5.pdf`](ai-companion_social-shift_preprint_ru_v0.1.5.pdf)  
+- **Russian translation (v0.1.6)**  
+  [`ai-companion_social-shift_ru preprint_socarxiv_v0.1.6.pdf`](ai-companion_social-shift_ru_preprint_socarxiv_v0.1.6.pdf)  
   Conceptual translation of the canonical preprint for Russian-speaking readers; content is aligned with the English v0.1.5 version.
 
 ## Essays
