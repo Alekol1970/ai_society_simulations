@@ -1,21 +1,24 @@
-NOTICE — AI-Companionship
+NOTICE — AI-Companionship / AI Society Simulations
 
-Author & Copyright
-© 2025, Aleksandr Kolomiets. All rights reserved for commercial use.
+Author & copyright
+© 2025, Aleksandr Kolomiets. All rights reserved for commercial use unless explicitly licensed otherwise.
 
-Licensing Overview
+Licensing overview (this repository)
 - Code & algorithms: Apache-2.0 (see LICENSE)
-- Texts & conceptual materials (Appendix F/G, G.1–G.2): CC BY-NC 4.0 (see LICENSE-DOCS)
-- Data / tables / index structures: ODC-By 1.0 + CC BY-NC 4.0 (see LICENSE-DATA)
-- Audio / regulatory scripts: Proprietary — use by written permission only
+- Texts & conceptual materials in this repo (selected docs / appendices): CC BY-NC 4.0 (see LICENSE-DOCS)
+- Data / tables / index structures in this repo: ODC-By 1.0 + CC BY-NC 4.0 (see LICENSE-DATA)
+- Audio / regulatory scripts / proprietary assets (if present): Proprietary — use by written permission only
 
-Proprietary Modules (Commercial License Only)
+Note on external publications
+Some related texts are published outside this repository under their own licenses (e.g., CC BY 4.0 on Zenodo). Their license terms do not automatically apply to repository content and vice versa.
+
+Proprietary modules (commercial license only; not covered by open licenses in this repo)
 - Music Mirror (neuro-emotional audio interface)
 - Video Mirror (symbolic short films; 2D/3D geometric characters)
 - Pair Dynamics (relationship patterns & routing)
 Commercial use prohibited without written consent of Aleksandr Kolomiets.
 
-Commercial Concepts (Proprietary — commercial license only)
+Commercial concepts (proprietary — available under separate commercial terms)
 - Pilot: AI Companion (B2B/B2G)
 - AI-led Webinar / Training
 - Pairs Game (SaaS)
@@ -26,32 +29,36 @@ Commercial Concepts (Proprietary — commercial license only)
 - Platform Playbooks
 - Case Studies / Reports
 - Learning Products
-- Music Mirror (neuro-emotional audio layer)
-- Video Mirror (symbolic shorts; 2D/3D geometric figures)
 - Computer Game as Mirror
 - Series: Companion Implementation
 - Equity / Revenue-share Model
 
-Proof of Authorship & Integrity
+Proof of authorship & integrity
 
-[Preprint version]
-- Current canonical preprint (EN): ai-companion_social-shift_preprint_arxiv_v0.1.5.pdf
-- Parallel Russian translation (RU): ai-companion_social-shift_preprint_ru_v0.1.5.pdf
-- Both PDFs correspond to GitHub release v0.1.5; the English version is the primary reference text.
-- Latest archived version on Zenodo (EN, v0.1.5): 10.5281/zenodo.17838177
+[Preprint — repository state]
+- Current canonical preprint (EN): ai-companion_social-shift_preprint_arxiv_v0.1.6.pdf
+- Parallel Russian translation (RU): ai-companion_social-shift_preprint_ru_v0.1.6.pdf
+- These PDFs correspond to the GitHub release/tag: v0.1.6 (English version is the primary reference text).
+
+[Zenodo — preprint archival]
 - Concept DOI (all versions): 10.5281/zenodo.17390051
+- Latest archived version DOI (v0.1.6): <ADD_AFTER_RELEASE>   (replace with the new Zenodo “latest version” DOI once the release is minted)
 
-[Zenodo evidence]
+[Zenodo — evidence bundle]
 - Endorsement emails bundle (ZIP): Zenodo DOI 10.5281/zenodo.17556076, Published (UTC) 2025-11-08.
   Contents: raw .eml + printable PDFs (“message” & “Show original” headers) + original .docx (+ optional PDF) + CHECKSUMS.txt (SHA-256).
   Integrity: verify SHA-256 hashes from CHECKSUMS.txt inside the ZIP.
 
-[GitHub release]
-- Repository: https://github.com/Alekol1970/ai_society_simulations
-- Latest tagged release: v1.0.3 (or newer). Tag/hash serve as a public timestamp for code/text state.
-- (Optional) Signed tags: GPG signature attached to release tags.
+[Zenodo — essay (RU+EN in one record)]
+- “Reflections on the Meaning of Contact Interruptions (RU+EN)” — Concept DOI (all versions): 10.5281/zenodo.17952160
+  License: CC BY 4.0 (as set on Zenodo record)
 
-[Planned registrations]
-- Concept notes (Music Mirror / Video Mirror / Pair Dynamics): to be deposited on Zenodo/OSF with “isSupplementTo” relation to the main concept DOI (10.5281/zenodo.17390051). DOIs will be added here upon publication.
+[SocArXiv / OSF Preprints]
+- SocArXiv submission (v0.1.6): <ADD_OSF_OR_SOCARXIV_LINK_AFTER_SUBMISSION>
+
+[GitHub repository]
+- Repository: https://github.com/Alekol1970/ai_society_simulations
+- Release tags/commit hashes serve as public timestamps for code/text state.
+- (Optional) Signed tags: GPG signature attached to release tags.
 
 Contact (licensing & permissions): <ai.society.commercial@gmail.com>
